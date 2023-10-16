@@ -503,6 +503,86 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property tải_xuống() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống__1_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống (1)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống__2_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống (2)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống__3_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống (3)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống__4_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống (4)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property tải_xuống3() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("tải xuống3", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property thiếu_nhi_1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("thiếu nhi 1", resourceCulture)

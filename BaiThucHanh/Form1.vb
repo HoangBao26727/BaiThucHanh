@@ -30,4 +30,17 @@
         Dim frm As New SachkyNangSong()
         frm.Show()
     End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
+
+    Private Sub LiênHệToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub GiớiThiệuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles GiớiThiệuToolStripMenuItem.Click
+        Dim frm As New Gioithieu()
+        frm.Show()
+    End Sub
 End Class

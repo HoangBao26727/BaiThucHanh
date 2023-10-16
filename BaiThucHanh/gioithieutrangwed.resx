@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Sứ mệnh : NBĐ, là thương hiệu chuyên cung cấp cá loại sách như , sách thiếu nhi, kỹ năng sống, ngoại ngữ.                  Sứ mệnh của chúng tôi mang lại những cuốn sách giúp bạn phát triển bản thân khởi nghiệp xây dưng hạnh phúc biết được nhiều thứ  chúng tôi tin rằng sách là một tri thức vô tận, là người bạn đồng hành và là người thầy Vĩ Đại.                     Xin cảm ơn!
+
+
+</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>                         Review Sách                              
+  Hệ thống blog của NBĐBOOK chuyên review những tác phẩm liên quan đến chủ đề kinh tế, tâm lý học, kỹ năng sống,… Mục tiêu giúp độc giả lựa chọn được những cuốn sách phù hợp với nhu cầu, sở thích và mục tiêu đọc sách. Chúng tôi sẽ cung cấp cho bạn những review khách quan, trung thực và chi tiết, đồng thời cung cấp những lời khuyên, những gợi ý và những liên kết để bạn có thể sở hữu sách dễ dàng hơn.
+
+</value>
+  </data>
 </root>
