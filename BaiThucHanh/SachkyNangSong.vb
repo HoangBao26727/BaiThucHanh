@@ -10,4 +10,9 @@
     Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
 
     End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        Dim ngdat As New SachNgoaiNgu
+        SachNgoaiNgu.Show()
+    End Sub
 End Class

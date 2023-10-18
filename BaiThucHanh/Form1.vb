@@ -3,13 +3,13 @@
 
     End Sub
 
-    Private Sub DangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DangToolStripMenuItem.Click
-        Dim frm As New DangNhap()
-        frm.Show()
+    Private Sub DangToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
     End Sub
 
     Private Sub SảnPhẩmToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SảnPhẩmToolStripMenuItem.Click
-
+        Dim frm As New DangNhap()
+        frm.Show()
     End Sub
 
     Private Sub SáchThiếuNhiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SáchThiếuNhiToolStripMenuItem.Click
