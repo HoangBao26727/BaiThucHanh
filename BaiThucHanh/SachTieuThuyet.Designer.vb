@@ -34,6 +34,7 @@ Partial Class SachTieuThuyet
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,10 +52,10 @@ Partial Class SachTieuThuyet
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox1.Location = New System.Drawing.Point(50, 255)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(30, 207)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
@@ -62,10 +63,10 @@ Partial Class SachTieuThuyet
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox2.Location = New System.Drawing.Point(320, 255)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(266, 207)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox2.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 2
         Me.PictureBox2.TabStop = False
@@ -73,10 +74,10 @@ Partial Class SachTieuThuyet
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox3.Location = New System.Drawing.Point(637, 255)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(502, 207)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox3.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
@@ -84,10 +85,10 @@ Partial Class SachTieuThuyet
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox4.Location = New System.Drawing.Point(945, 255)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox4.Location = New System.Drawing.Point(771, 207)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox4.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 4
         Me.PictureBox4.TabStop = False
@@ -95,10 +96,10 @@ Partial Class SachTieuThuyet
         'PictureBox5
         '
         Me.PictureBox5.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox5.Location = New System.Drawing.Point(50, 543)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox5.Location = New System.Drawing.Point(30, 441)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox5.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 5
         Me.PictureBox5.TabStop = False
@@ -106,10 +107,10 @@ Partial Class SachTieuThuyet
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox6.Location = New System.Drawing.Point(320, 543)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox6.Location = New System.Drawing.Point(266, 441)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox6.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 6
         Me.PictureBox6.TabStop = False
@@ -117,10 +118,10 @@ Partial Class SachTieuThuyet
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox7.Location = New System.Drawing.Point(637, 543)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox7.Location = New System.Drawing.Point(502, 441)
+        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox7.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 7
         Me.PictureBox7.TabStop = False
@@ -128,10 +129,10 @@ Partial Class SachTieuThuyet
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox8.Location = New System.Drawing.Point(945, 543)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox8.Location = New System.Drawing.Point(771, 441)
+        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox8.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 8
         Me.PictureBox8.TabStop = False
@@ -139,10 +140,10 @@ Partial Class SachTieuThuyet
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox9.Location = New System.Drawing.Point(50, 820)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox9.Location = New System.Drawing.Point(29, 662)
+        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox9.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 9
         Me.PictureBox9.TabStop = False
@@ -150,10 +151,10 @@ Partial Class SachTieuThuyet
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox10.Location = New System.Drawing.Point(320, 820)
-        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox10.Location = New System.Drawing.Point(265, 662)
+        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox10.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 10
         Me.PictureBox10.TabStop = False
@@ -161,10 +162,10 @@ Partial Class SachTieuThuyet
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox11.Location = New System.Drawing.Point(637, 820)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox11.Location = New System.Drawing.Point(502, 662)
+        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox11.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 11
         Me.PictureBox11.TabStop = False
@@ -172,19 +173,32 @@ Partial Class SachTieuThuyet
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox12.Location = New System.Drawing.Point(945, 820)
-        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox12.Location = New System.Drawing.Point(771, 662)
+        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox12.Size = New System.Drawing.Size(140, 169)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 12
         Me.PictureBox12.TabStop = False
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Ivory
+        Me.Button1.ForeColor = System.Drawing.Color.Red
+        Me.Button1.Location = New System.Drawing.Point(919, 207)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(113, 39)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Về Trang Chủ"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'SachTieuThuyet
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1159, 1055)
+        Me.ClientSize = New System.Drawing.Size(1044, 857)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox12)
         Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.PictureBox10)
@@ -197,6 +211,8 @@ Partial Class SachTieuThuyet
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "SachTieuThuyet"
         Me.Text = "SachTieuThuyet"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -227,4 +243,5 @@ Partial Class SachTieuThuyet
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class

@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.TrangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SảnPhẩmToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SáchThiếuNhiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SáchNgoạiNgữToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -34,7 +35,6 @@ Partial Class Form1
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.TrangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -46,52 +46,58 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TrangToolStripMenuItem, Me.SảnPhẩmToolStripMenuItem, Me.GiớiThiệuToolStripMenuItem, Me.ThoátToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1189, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(892, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'TrangToolStripMenuItem
+        '
+        Me.TrangToolStripMenuItem.Name = "TrangToolStripMenuItem"
+        Me.TrangToolStripMenuItem.Size = New System.Drawing.Size(74, 20)
+        Me.TrangToolStripMenuItem.Text = "Trang Chủ"
         '
         'SảnPhẩmToolStripMenuItem
         '
         Me.SảnPhẩmToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SáchThiếuNhiToolStripMenuItem, Me.SáchNgoạiNgữToolStripMenuItem, Me.SáchKỹNăngSốngToolStripMenuItem, Me.SáchTriếtLýToolStripMenuItem})
         Me.SảnPhẩmToolStripMenuItem.Name = "SảnPhẩmToolStripMenuItem"
-        Me.SảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(118, 24)
+        Me.SảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(94, 20)
         Me.SảnPhẩmToolStripMenuItem.Text = "Thể Loại Sách"
         '
         'SáchThiếuNhiToolStripMenuItem
         '
         Me.SáchThiếuNhiToolStripMenuItem.Name = "SáchThiếuNhiToolStripMenuItem"
-        Me.SáchThiếuNhiToolStripMenuItem.Size = New System.Drawing.Size(227, 26)
+        Me.SáchThiếuNhiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SáchThiếuNhiToolStripMenuItem.Text = "Sách Thiếu Nhi"
         '
         'SáchNgoạiNgữToolStripMenuItem
         '
         Me.SáchNgoạiNgữToolStripMenuItem.Name = "SáchNgoạiNgữToolStripMenuItem"
-        Me.SáchNgoạiNgữToolStripMenuItem.Size = New System.Drawing.Size(227, 26)
+        Me.SáchNgoạiNgữToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SáchNgoạiNgữToolStripMenuItem.Text = "Sách Ngoại Ngữ"
         '
         'SáchKỹNăngSốngToolStripMenuItem
         '
         Me.SáchKỹNăngSốngToolStripMenuItem.Name = "SáchKỹNăngSốngToolStripMenuItem"
-        Me.SáchKỹNăngSốngToolStripMenuItem.Size = New System.Drawing.Size(227, 26)
+        Me.SáchKỹNăngSốngToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SáchKỹNăngSốngToolStripMenuItem.Text = "Sách Kỹ Năng Sống"
         '
         'SáchTriếtLýToolStripMenuItem
         '
         Me.SáchTriếtLýToolStripMenuItem.Name = "SáchTriếtLýToolStripMenuItem"
-        Me.SáchTriếtLýToolStripMenuItem.Size = New System.Drawing.Size(227, 26)
+        Me.SáchTriếtLýToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SáchTriếtLýToolStripMenuItem.Text = "Sách Tiểu Thuyết"
         '
         'GiớiThiệuToolStripMenuItem
         '
         Me.GiớiThiệuToolStripMenuItem.Name = "GiớiThiệuToolStripMenuItem"
-        Me.GiớiThiệuToolStripMenuItem.Size = New System.Drawing.Size(94, 24)
+        Me.GiớiThiệuToolStripMenuItem.Size = New System.Drawing.Size(76, 20)
         Me.GiớiThiệuToolStripMenuItem.Text = "Giới Thiệu"
         '
         'ThoátToolStripMenuItem
         '
         Me.ThoátToolStripMenuItem.Name = "ThoátToolStripMenuItem"
-        Me.ThoátToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
+        Me.ThoátToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
         Me.ThoátToolStripMenuItem.Text = "Thoát"
         '
         'ContextMenuStrip1
@@ -103,39 +109,32 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(773, 57)
+        Me.Label1.Location = New System.Drawing.Point(580, 46)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 16)
+        Me.Label1.Size = New System.Drawing.Size(0, 13)
         Me.Label1.TabIndex = 3
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.BaiThucHanh.My.Resources.Resources.one
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 33)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 27)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1189, 670)
+        Me.PictureBox1.Size = New System.Drawing.Size(892, 544)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
-        'TrangToolStripMenuItem
-        '
-        Me.TrangToolStripMenuItem.Name = "TrangToolStripMenuItem"
-        Me.TrangToolStripMenuItem.Size = New System.Drawing.Size(94, 24)
-        Me.TrangToolStripMenuItem.Text = "Trang Chủ"
-        '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1189, 697)
+        Me.ClientSize = New System.Drawing.Size(892, 566)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Quanlybansach.vb"
         Me.MenuStrip1.ResumeLayout(False)

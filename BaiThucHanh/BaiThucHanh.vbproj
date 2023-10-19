@@ -73,10 +73,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dactamnhan.Designer.vb">
+      <DependentUpon>dactamnhan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dactamnhan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DangNhap.Designer.vb">
       <DependentUpon>DangNhap.vb</DependentUpon>
     </Compile>
     <Compile Include="DangNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dungluachonkhicontre.Designer.vb">
+      <DependentUpon>dungluachonkhicontre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dungluachonkhicontre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dungsaigon.Designer.vb">
+      <DependentUpon>dungsaigon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dungsaigon.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -90,6 +108,42 @@
       <DependentUpon>gioithieutrangwed.vb</DependentUpon>
     </Compile>
     <Compile Include="gioithieutrangwed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grammarcam.Designer.vb">
+      <DependentUpon>grammarcam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="grammarcam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grammarhong.Designer.vb">
+      <DependentUpon>grammarhong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="grammarhong.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grammarxanh.Designer.vb">
+      <DependentUpon>grammarxanh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="grammarxanh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hanhtrinh.Designer.vb">
+      <DependentUpon>hanhtrinh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="hanhtrinh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="khurung.Designer.vb">
+      <DependentUpon>khurung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="khurung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lequang.Designer.vb">
+      <DependentUpon>lequang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lequang.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -106,6 +160,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="nguoicon.Designer.vb">
+      <DependentUpon>nguoicon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nguoicon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perfect.Designer.vb">
+      <DependentUpon>perfect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="perfect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ruavatho.Designer.vb">
+      <DependentUpon>ruavatho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ruavatho.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="SachkyNangSong.Designer.vb">
       <DependentUpon>SachkyNangSong.vb</DependentUpon>
@@ -140,6 +212,24 @@
     <Compile Include="ThôngTin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="tuoitho.Designer.vb">
+      <DependentUpon>tuoitho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tuoitho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tuoitre.Designer.vb">
+      <DependentUpon>tuoitre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tuoitre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vitchivitem.Designer.vb">
+      <DependentUpon>vitchivitem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vitchivitem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ĐơnHàng.Designer.vb">
       <DependentUpon>ĐơnHàng.vb</DependentUpon>
     </Compile>
@@ -151,8 +241,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="dactamnhan.resx">
+      <DependentUpon>dactamnhan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dungluachonkhicontre.resx">
+      <DependentUpon>dungluachonkhicontre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dungsaigon.resx">
+      <DependentUpon>dungsaigon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -160,11 +259,38 @@
     <EmbeddedResource Include="gioithieutrangwed.resx">
       <DependentUpon>gioithieutrangwed.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="grammarcam.resx">
+      <DependentUpon>grammarcam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grammarhong.resx">
+      <DependentUpon>grammarhong.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grammarxanh.resx">
+      <DependentUpon>grammarxanh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hanhtrinh.resx">
+      <DependentUpon>hanhtrinh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="khurung.resx">
+      <DependentUpon>khurung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lequang.resx">
+      <DependentUpon>lequang.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nguoicon.resx">
+      <DependentUpon>nguoicon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perfect.resx">
+      <DependentUpon>perfect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ruavatho.resx">
+      <DependentUpon>ruavatho.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SachkyNangSong.resx">
       <DependentUpon>SachkyNangSong.vb</DependentUpon>
@@ -183,6 +309,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThôngTin.resx">
       <DependentUpon>ThôngTin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tuoitho.resx">
+      <DependentUpon>tuoitho.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tuoitre.resx">
+      <DependentUpon>tuoitre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vitchivitem.resx">
+      <DependentUpon>vitchivitem.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ĐơnHàng.resx">
       <DependentUpon>ĐơnHàng.vb</DependentUpon>
