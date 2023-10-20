@@ -1,7 +1,6 @@
-﻿Public Class grammarcam
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim ngdat As New ThôngTin()
-        ngdat.Show()
+﻿Public Class tuvungtienganh
+    Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

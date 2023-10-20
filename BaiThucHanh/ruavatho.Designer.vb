@@ -34,9 +34,10 @@ Partial Class ruavatho
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_6
-        Me.PictureBox3.Location = New System.Drawing.Point(181, 3)
+        Me.PictureBox3.Location = New System.Drawing.Point(241, 4)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(159, 236)
+        Me.PictureBox3.Size = New System.Drawing.Size(212, 290)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 8
         Me.PictureBox3.TabStop = False
@@ -46,9 +47,10 @@ Partial Class ruavatho
         Me.Button2.BackColor = System.Drawing.Color.DarkOrange
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(271, 444)
+        Me.Button2.Location = New System.Drawing.Point(361, 546)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(117, 38)
+        Me.Button2.Size = New System.Drawing.Size(156, 47)
         Me.Button2.TabIndex = 43
         Me.Button2.Text = "Mua"
         Me.Button2.UseVisualStyleBackColor = False
@@ -58,9 +60,10 @@ Partial Class ruavatho
         Me.Button1.BackColor = System.Drawing.Color.DarkOrange
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(111, 444)
+        Me.Button1.Location = New System.Drawing.Point(148, 546)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 38)
+        Me.Button1.Size = New System.Drawing.Size(156, 47)
         Me.Button1.TabIndex = 44
         Me.Button1.Text = "Thêm vào giỏ"
         Me.Button1.UseVisualStyleBackColor = False
@@ -70,9 +73,10 @@ Partial Class ruavatho
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Red
-        Me.Label4.Location = New System.Drawing.Point(10, 282)
+        Me.Label4.Location = New System.Drawing.Point(13, 347)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 29)
+        Me.Label4.Size = New System.Drawing.Size(64, 36)
         Me.Label4.TabIndex = 42
         Me.Label4.Text = "Giá"
         '
@@ -80,9 +84,10 @@ Partial Class ruavatho
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(192, 242)
+        Me.Label3.Location = New System.Drawing.Point(256, 298)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(135, 29)
+        Me.Label3.Size = New System.Drawing.Size(165, 33)
         Me.Label3.TabIndex = 41
         Me.Label3.Text = "Rùa và Thỏ"
         '
@@ -91,24 +96,26 @@ Partial Class ruavatho
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(10, 324)
+        Me.Label2.Location = New System.Drawing.Point(13, 399)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 25)
+        Me.Label2.Size = New System.Drawing.Size(164, 31)
         Me.Label2.TabIndex = 38
         Me.Label2.Text = "18.000VND"
         '
         'ruavatho
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.ClientSize = New System.Drawing.Size(525, 513)
+        Me.ClientSize = New System.Drawing.Size(700, 631)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox3)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "ruavatho"
         Me.Text = "ruavatho"
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()

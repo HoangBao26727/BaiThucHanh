@@ -34,9 +34,10 @@ Partial Class lequang
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_3
-        Me.PictureBox4.Location = New System.Drawing.Point(179, 12)
+        Me.PictureBox4.Location = New System.Drawing.Point(239, 15)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(137, 190)
+        Me.PictureBox4.Size = New System.Drawing.Size(183, 234)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox4.TabIndex = 9
         Me.PictureBox4.TabStop = False
@@ -46,9 +47,10 @@ Partial Class lequang
         Me.Button2.BackColor = System.Drawing.Color.DarkOrange
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(267, 407)
+        Me.Button2.Location = New System.Drawing.Point(356, 501)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(117, 38)
+        Me.Button2.Size = New System.Drawing.Size(156, 47)
         Me.Button2.TabIndex = 36
         Me.Button2.Text = "Mua"
         Me.Button2.UseVisualStyleBackColor = False
@@ -58,9 +60,10 @@ Partial Class lequang
         Me.Button1.BackColor = System.Drawing.Color.DarkOrange
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(107, 407)
+        Me.Button1.Location = New System.Drawing.Point(143, 501)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 38)
+        Me.Button1.Size = New System.Drawing.Size(156, 47)
         Me.Button1.TabIndex = 37
         Me.Button1.Text = "Thêm vào giỏ"
         Me.Button1.UseVisualStyleBackColor = False
@@ -70,9 +73,10 @@ Partial Class lequang
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Red
-        Me.Label4.Location = New System.Drawing.Point(6, 245)
+        Me.Label4.Location = New System.Drawing.Point(8, 302)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 29)
+        Me.Label4.Size = New System.Drawing.Size(64, 36)
         Me.Label4.TabIndex = 35
         Me.Label4.Text = "Giá"
         '
@@ -80,9 +84,10 @@ Partial Class lequang
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(126, 205)
+        Me.Label3.Location = New System.Drawing.Point(168, 252)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(249, 29)
+        Me.Label3.Size = New System.Drawing.Size(301, 33)
         Me.Label3.TabIndex = 34
         Me.Label3.Text = "Thủ lĩnh băng vịt đồng"
         '
@@ -91,24 +96,26 @@ Partial Class lequang
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(6, 284)
+        Me.Label2.Location = New System.Drawing.Point(8, 350)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(131, 25)
+        Me.Label2.Size = New System.Drawing.Size(164, 31)
         Me.Label2.TabIndex = 31
         Me.Label2.Text = "22.000VND"
         '
         'lequang
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.ClientSize = New System.Drawing.Size(505, 475)
+        Me.ClientSize = New System.Drawing.Size(673, 585)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "lequang"
         Me.Text = "lequang"
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()

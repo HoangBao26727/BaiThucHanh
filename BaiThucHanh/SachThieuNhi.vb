@@ -46,4 +46,9 @@
         Dim ngdat As New khurung()
         ngdat.Show()
     End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Dim ngdat As New alice()
+        ngdat.Show()
+    End Sub
 End Class

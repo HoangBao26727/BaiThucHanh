@@ -17,7 +17,7 @@
             Me.Hide()
         End If
         If (ten = "hongngoc" AndAlso mk = "123") Then
-            Dim ngdat2 As New SachNgoaiNgu()
+            Dim ngdat2 As New SachkyNangSong()
             ngdat2.Show()
             Me.Hide()
         End If

@@ -25,4 +25,24 @@
         Dim ngdat As New dungluachonkhicontre()
         ngdat.Show()
     End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        Dim ngdat As New suynghi()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim ngdat As New thanhthan()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim ngdat As New danhthuc()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim ngdat As New tuduy()
+        ngdat.Show()
+    End Sub
 End Class

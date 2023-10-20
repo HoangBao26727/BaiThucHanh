@@ -25,4 +25,24 @@
         Dim ngdat As New perfect()
         ngdat.Show()
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim ngdat As New grammarxanhdo()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim ngdat As New grammarxanhduong()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim ngdat As New englishvocabulary()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+        Dim ngdat As New tuvungtienganh()
+        ngdat.Show()
+    End Sub
 End Class

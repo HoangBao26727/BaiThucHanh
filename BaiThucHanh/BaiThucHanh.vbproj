@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alice.Designer.vb">
+      <DependentUpon>alice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="alice.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dactamnhan.Designer.vb">
       <DependentUpon>dactamnhan.vb</DependentUpon>
     </Compile>
@@ -85,6 +91,12 @@
     <Compile Include="DangNhap.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="danhthuc.Designer.vb">
+      <DependentUpon>danhthuc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="danhthuc.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dungluachonkhicontre.Designer.vb">
       <DependentUpon>dungluachonkhicontre.vb</DependentUpon>
     </Compile>
@@ -95,6 +107,12 @@
       <DependentUpon>dungsaigon.vb</DependentUpon>
     </Compile>
     <Compile Include="dungsaigon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="englishvocabulary.Designer.vb">
+      <DependentUpon>englishvocabulary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="englishvocabulary.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">
@@ -126,6 +144,18 @@
       <DependentUpon>grammarxanh.vb</DependentUpon>
     </Compile>
     <Compile Include="grammarxanh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grammarxanhdo.Designer.vb">
+      <DependentUpon>grammarxanhdo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="grammarxanhdo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grammarxanhduong.Designer.vb">
+      <DependentUpon>grammarxanhduong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="grammarxanhduong.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="hanhtrinh.Designer.vb">
@@ -203,6 +233,18 @@
     <Compile Include="SachTieuThuyet.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="suynghi.Designer.vb">
+      <DependentUpon>suynghi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suynghi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="thanhthan.Designer.vb">
+      <DependentUpon>thanhthan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="thanhthan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ThongKe.Designer.vb">
       <DependentUpon>Gioithieuvb</DependentUpon>
     </Compile>
@@ -210,6 +252,12 @@
       <DependentUpon>ThôngTin.vb</DependentUpon>
     </Compile>
     <Compile Include="ThôngTin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tuduy.Designer.vb">
+      <DependentUpon>tuduy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tuduy.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="tuoitho.Designer.vb">
@@ -222,6 +270,12 @@
       <DependentUpon>tuoitre.vb</DependentUpon>
     </Compile>
     <Compile Include="tuoitre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tuvungtienganh.Designer.vb">
+      <DependentUpon>tuvungtienganh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tuvungtienganh.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="vitchivitem.Designer.vb">
@@ -241,17 +295,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="alice.resx">
+      <DependentUpon>alice.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dactamnhan.resx">
       <DependentUpon>dactamnhan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="danhthuc.resx">
+      <DependentUpon>danhthuc.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dungluachonkhicontre.resx">
       <DependentUpon>dungluachonkhicontre.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dungsaigon.resx">
       <DependentUpon>dungsaigon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="englishvocabulary.resx">
+      <DependentUpon>englishvocabulary.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -267,6 +330,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="grammarxanh.resx">
       <DependentUpon>grammarxanh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grammarxanhdo.resx">
+      <DependentUpon>grammarxanhdo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grammarxanhduong.resx">
+      <DependentUpon>grammarxanhduong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="hanhtrinh.resx">
       <DependentUpon>hanhtrinh.vb</DependentUpon>
@@ -304,17 +373,29 @@
     <EmbeddedResource Include="SachTieuThuyet.resx">
       <DependentUpon>SachTieuThuyet.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="suynghi.resx">
+      <DependentUpon>suynghi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="thanhthan.resx">
+      <DependentUpon>thanhthan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ThongKe.resx">
       <DependentUpon>Gioithieuvb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThôngTin.resx">
       <DependentUpon>ThôngTin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="tuduy.resx">
+      <DependentUpon>tuduy.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tuoitho.resx">
       <DependentUpon>tuoitho.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tuoitre.resx">
       <DependentUpon>tuoitre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tuvungtienganh.resx">
+      <DependentUpon>tuvungtienganh.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vitchivitem.resx">
       <DependentUpon>vitchivitem.vb</DependentUpon>
