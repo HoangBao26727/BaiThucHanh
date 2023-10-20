@@ -60,7 +60,7 @@ Partial Class suynghi
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Red
-        Me.Label4.Location = New System.Drawing.Point(13, 336)
+        Me.Label4.Location = New System.Drawing.Point(16, 403)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(64, 36)
@@ -71,7 +71,7 @@ Partial Class suynghi
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(12, 393)
+        Me.Label12.Location = New System.Drawing.Point(15, 460)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(147, 29)
         Me.Label12.TabIndex = 44
@@ -82,7 +82,7 @@ Partial Class suynghi
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Red
-        Me.Label13.Location = New System.Drawing.Point(174, 391)
+        Me.Label13.Location = New System.Drawing.Point(177, 458)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(180, 31)
         Me.Label13.TabIndex = 45
@@ -94,7 +94,7 @@ Partial Class suynghi
         Me.Label5.BackColor = System.Drawing.Color.Red
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.MistyRose
-        Me.Label5.Location = New System.Drawing.Point(361, 401)
+        Me.Label5.Location = New System.Drawing.Point(374, 462)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(69, 52)
@@ -106,7 +106,7 @@ Partial Class suynghi
         Me.Button1.BackColor = System.Drawing.Color.DarkOrange
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Red
-        Me.Button1.Location = New System.Drawing.Point(144, 484)
+        Me.Button1.Location = New System.Drawing.Point(147, 551)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(156, 47)
@@ -119,7 +119,7 @@ Partial Class suynghi
         Me.Button2.BackColor = System.Drawing.Color.DarkOrange
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(357, 484)
+        Me.Button2.Location = New System.Drawing.Point(360, 551)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(156, 47)
@@ -132,7 +132,7 @@ Partial Class suynghi
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PowderBlue
-        Me.ClientSize = New System.Drawing.Size(800, 584)
+        Me.ClientSize = New System.Drawing.Size(800, 707)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)

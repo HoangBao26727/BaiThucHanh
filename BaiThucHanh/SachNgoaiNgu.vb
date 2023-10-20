@@ -45,4 +45,24 @@
         Dim ngdat As New tuvungtienganh()
         ngdat.Show()
     End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Dim ngdat As New tudien()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        Dim ngdat As New tudiendo()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Dim ngdat As New tudiencam()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        Dim ngdat As New baitapnguphap()
+        ngdat.Show()
+    End Sub
 End Class

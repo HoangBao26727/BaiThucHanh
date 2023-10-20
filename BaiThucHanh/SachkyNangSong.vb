@@ -45,4 +45,32 @@
         Dim ngdat As New tuduy()
         ngdat.Show()
     End Sub
+
+    Private Sub Label27_Click(sender As Object, e As EventArgs) Handles Label27.Click
+
+    End Sub
+
+    Private Sub PictureBox17_Click(sender As Object, e As EventArgs) Handles PictureBox17.Click
+
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        Dim ngdat As New songhieuqua()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        Dim ngdat As New ngoloi()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        Dim ngdat As New renkynangsong()
+        ngdat.Show()
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        Dim ngdat As New ditimlesong()
+        ngdat.Show()
+    End Sub
 End Class

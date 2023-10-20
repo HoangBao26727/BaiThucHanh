@@ -79,6 +79,12 @@
     <Compile Include="alice.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="baitapnguphap.Designer.vb">
+      <DependentUpon>baitapnguphap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="baitapnguphap.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dactamnhan.Designer.vb">
       <DependentUpon>dactamnhan.vb</DependentUpon>
     </Compile>
@@ -95,6 +101,12 @@
       <DependentUpon>danhthuc.vb</DependentUpon>
     </Compile>
     <Compile Include="danhthuc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ditimlesong.Designer.vb">
+      <DependentUpon>ditimlesong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ditimlesong.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="dungluachonkhicontre.Designer.vb">
@@ -191,6 +203,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ngoloi.Designer.vb">
+      <DependentUpon>ngoloi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ngoloi.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="nguoicon.Designer.vb">
       <DependentUpon>nguoicon.vb</DependentUpon>
     </Compile>
@@ -201,6 +219,12 @@
       <DependentUpon>perfect.vb</DependentUpon>
     </Compile>
     <Compile Include="perfect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="renkynangsong.Designer.vb">
+      <DependentUpon>renkynangsong.vb</DependentUpon>
+    </Compile>
+    <Compile Include="renkynangsong.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ruavatho.Designer.vb">
@@ -233,6 +257,12 @@
     <Compile Include="SachTieuThuyet.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="songhieuqua.Designer.vb">
+      <DependentUpon>songhieuqua.vb</DependentUpon>
+    </Compile>
+    <Compile Include="songhieuqua.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="suynghi.Designer.vb">
       <DependentUpon>suynghi.vb</DependentUpon>
     </Compile>
@@ -252,6 +282,24 @@
       <DependentUpon>ThôngTin.vb</DependentUpon>
     </Compile>
     <Compile Include="ThôngTin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tudien.Designer.vb">
+      <DependentUpon>tudien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tudien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tudiencam.Designer.vb">
+      <DependentUpon>tudiencam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tudiencam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tudiendo.Designer.vb">
+      <DependentUpon>tudiendo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tudiendo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="tuduy.Designer.vb">
@@ -298,6 +346,9 @@
     <EmbeddedResource Include="alice.resx">
       <DependentUpon>alice.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="baitapnguphap.resx">
+      <DependentUpon>baitapnguphap.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dactamnhan.resx">
       <DependentUpon>dactamnhan.vb</DependentUpon>
     </EmbeddedResource>
@@ -306,6 +357,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="danhthuc.resx">
       <DependentUpon>danhthuc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ditimlesong.resx">
+      <DependentUpon>ditimlesong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dungluachonkhicontre.resx">
       <DependentUpon>dungluachonkhicontre.vb</DependentUpon>
@@ -352,11 +406,17 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ngoloi.resx">
+      <DependentUpon>ngoloi.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="nguoicon.resx">
       <DependentUpon>nguoicon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perfect.resx">
       <DependentUpon>perfect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="renkynangsong.resx">
+      <DependentUpon>renkynangsong.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ruavatho.resx">
       <DependentUpon>ruavatho.vb</DependentUpon>
@@ -373,6 +433,9 @@
     <EmbeddedResource Include="SachTieuThuyet.resx">
       <DependentUpon>SachTieuThuyet.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="songhieuqua.resx">
+      <DependentUpon>songhieuqua.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="suynghi.resx">
       <DependentUpon>suynghi.vb</DependentUpon>
     </EmbeddedResource>
@@ -384,6 +447,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThôngTin.resx">
       <DependentUpon>ThôngTin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tudien.resx">
+      <DependentUpon>tudien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tudiencam.resx">
+      <DependentUpon>tudiencam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tudiendo.resx">
+      <DependentUpon>tudiendo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tuduy.resx">
       <DependentUpon>tuduy.vb</DependentUpon>
@@ -637,6 +709,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh sale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh sale1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
