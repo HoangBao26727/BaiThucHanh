@@ -98,10 +98,9 @@ Partial Class SachThieuNhi
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(15, 617)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(11, 501)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(94, 20)
+        Me.Label1.Size = New System.Drawing.Size(74, 16)
         Me.Label1.TabIndex = 16
         Me.Label1.Text = "40.000VND"
         '
@@ -110,10 +109,9 @@ Partial Class SachThieuNhi
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(108, 613)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(81, 498)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(114, 24)
+        Me.Label2.Size = New System.Drawing.Size(92, 18)
         Me.Label2.TabIndex = 16
         Me.Label2.Text = "38.000VND"
         '
@@ -122,10 +120,9 @@ Partial Class SachThieuNhi
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Red
-        Me.Label3.Location = New System.Drawing.Point(399, 613)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(299, 498)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(114, 24)
+        Me.Label3.Size = New System.Drawing.Size(92, 18)
         Me.Label3.TabIndex = 16
         Me.Label3.Text = "27.000VND"
         '
@@ -133,10 +130,9 @@ Partial Class SachThieuNhi
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(292, 617)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(219, 501)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(94, 20)
+        Me.Label4.Size = New System.Drawing.Size(74, 16)
         Me.Label4.TabIndex = 16
         Me.Label4.Text = "30.000VND"
         '
@@ -145,10 +141,9 @@ Partial Class SachThieuNhi
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Red
-        Me.Label9.Location = New System.Drawing.Point(944, 615)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Location = New System.Drawing.Point(708, 500)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(114, 24)
+        Me.Label9.Size = New System.Drawing.Size(92, 18)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "23.800VND"
         '
@@ -156,10 +151,9 @@ Partial Class SachThieuNhi
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(848, 618)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Location = New System.Drawing.Point(636, 502)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(94, 20)
+        Me.Label10.Size = New System.Drawing.Size(74, 16)
         Me.Label10.TabIndex = 16
         Me.Label10.Text = "28.000VND"
         '
@@ -167,10 +161,9 @@ Partial Class SachThieuNhi
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Strikeout), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(3, 911)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Location = New System.Drawing.Point(2, 740)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(103, 22)
+        Me.Label11.Size = New System.Drawing.Size(83, 18)
         Me.Label11.TabIndex = 16
         Me.Label11.Text = "36.000VND"
         '
@@ -179,10 +172,9 @@ Partial Class SachThieuNhi
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Red
-        Me.Label12.Location = New System.Drawing.Point(123, 911)
-        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label12.Location = New System.Drawing.Point(92, 740)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(112, 22)
+        Me.Label12.Size = New System.Drawing.Size(92, 18)
         Me.Label12.TabIndex = 16
         Me.Label12.Text = "32.000VND"
         '
@@ -192,10 +184,9 @@ Partial Class SachThieuNhi
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Red
-        Me.Label14.Location = New System.Drawing.Point(340, 1221)
-        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label14.Location = New System.Drawing.Point(255, 992)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(114, 24)
+        Me.Label14.Size = New System.Drawing.Size(92, 18)
         Me.Label14.TabIndex = 16
         Me.Label14.Text = "24.000VND"
         '
@@ -205,10 +196,9 @@ Partial Class SachThieuNhi
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Red
-        Me.Label15.Location = New System.Drawing.Point(627, 911)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label15.Location = New System.Drawing.Point(470, 740)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(114, 24)
+        Me.Label15.Size = New System.Drawing.Size(92, 18)
         Me.Label15.TabIndex = 16
         Me.Label15.Text = "25.000VND"
         '
@@ -216,10 +206,9 @@ Partial Class SachThieuNhi
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(843, 917)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Location = New System.Drawing.Point(632, 745)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(94, 20)
+        Me.Label6.Size = New System.Drawing.Size(74, 16)
         Me.Label6.TabIndex = 16
         Me.Label6.Text = "27.000VND"
         '
@@ -228,10 +217,9 @@ Partial Class SachThieuNhi
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Red
-        Me.Label8.Location = New System.Drawing.Point(944, 917)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Location = New System.Drawing.Point(708, 745)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(114, 24)
+        Me.Label8.Size = New System.Drawing.Size(92, 18)
         Me.Label8.TabIndex = 16
         Me.Label8.Text = "21.000VND"
         '
@@ -239,10 +227,9 @@ Partial Class SachThieuNhi
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Strikeout), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(-7, 1223)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label13.Location = New System.Drawing.Point(-5, 994)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(103, 22)
+        Me.Label13.Size = New System.Drawing.Size(83, 18)
         Me.Label13.TabIndex = 16
         Me.Label13.Text = "32.000VND"
         '
@@ -251,10 +238,9 @@ Partial Class SachThieuNhi
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Red
-        Me.Label16.Location = New System.Drawing.Point(113, 1222)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label16.Location = New System.Drawing.Point(85, 993)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(112, 22)
+        Me.Label16.Size = New System.Drawing.Size(92, 18)
         Me.Label16.TabIndex = 16
         Me.Label16.Text = "27.000VND"
         '
@@ -264,10 +250,9 @@ Partial Class SachThieuNhi
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Red
-        Me.Label17.Location = New System.Drawing.Point(347, 911)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Location = New System.Drawing.Point(260, 740)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(114, 24)
+        Me.Label17.Size = New System.Drawing.Size(92, 18)
         Me.Label17.TabIndex = 16
         Me.Label17.Text = "18.000VND"
         '
@@ -277,10 +262,9 @@ Partial Class SachThieuNhi
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Red
-        Me.Label18.Location = New System.Drawing.Point(613, 1221)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Location = New System.Drawing.Point(460, 992)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(114, 24)
+        Me.Label18.Size = New System.Drawing.Size(92, 18)
         Me.Label18.TabIndex = 16
         Me.Label18.Text = "27.000VND"
         '
@@ -288,10 +272,9 @@ Partial Class SachThieuNhi
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Italic Or System.Drawing.FontStyle.Strikeout), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(833, 1223)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label19.Location = New System.Drawing.Point(625, 994)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(103, 22)
+        Me.Label19.Size = New System.Drawing.Size(83, 18)
         Me.Label19.TabIndex = 16
         Me.Label19.Text = "50.000VND"
         '
@@ -300,10 +283,9 @@ Partial Class SachThieuNhi
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Red
-        Me.Label20.Location = New System.Drawing.Point(940, 1222)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label20.Location = New System.Drawing.Point(705, 993)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(112, 22)
+        Me.Label20.Size = New System.Drawing.Size(92, 18)
         Me.Label20.TabIndex = 16
         Me.Label20.Text = "25.000VND"
         '
@@ -313,10 +295,9 @@ Partial Class SachThieuNhi
         Me.Label21.BackColor = System.Drawing.Color.Red
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.White
-        Me.Label21.Location = New System.Drawing.Point(216, 587)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label21.Location = New System.Drawing.Point(162, 477)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(37, 18)
+        Me.Label21.Size = New System.Drawing.Size(32, 15)
         Me.Label21.TabIndex = 17
         Me.Label21.Text = "-5%"
         '
@@ -326,10 +307,9 @@ Partial Class SachThieuNhi
         Me.Label22.BackColor = System.Drawing.Color.Red
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.ForeColor = System.Drawing.Color.White
-        Me.Label22.Location = New System.Drawing.Point(487, 585)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label22.Location = New System.Drawing.Point(365, 475)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(46, 18)
+        Me.Label22.Size = New System.Drawing.Size(40, 15)
         Me.Label22.TabIndex = 17
         Me.Label22.Text = "-10%"
         '
@@ -339,10 +319,9 @@ Partial Class SachThieuNhi
         Me.Label23.BackColor = System.Drawing.Color.Red
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.White
-        Me.Label23.Location = New System.Drawing.Point(1036, 587)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label23.Location = New System.Drawing.Point(777, 477)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(46, 18)
+        Me.Label23.Size = New System.Drawing.Size(40, 15)
         Me.Label23.TabIndex = 17
         Me.Label23.Text = "-15%"
         '
@@ -352,10 +331,9 @@ Partial Class SachThieuNhi
         Me.Label24.BackColor = System.Drawing.Color.Red
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.White
-        Me.Label24.Location = New System.Drawing.Point(216, 875)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label24.Location = New System.Drawing.Point(162, 711)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(46, 18)
+        Me.Label24.Size = New System.Drawing.Size(40, 15)
         Me.Label24.TabIndex = 17
         Me.Label24.Text = "-10%"
         '
@@ -365,10 +343,9 @@ Partial Class SachThieuNhi
         Me.Label25.BackColor = System.Drawing.Color.Red
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.White
-        Me.Label25.Location = New System.Drawing.Point(1036, 875)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label25.Location = New System.Drawing.Point(777, 711)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(46, 18)
+        Me.Label25.Size = New System.Drawing.Size(40, 15)
         Me.Label25.TabIndex = 17
         Me.Label25.Text = "-24%"
         '
@@ -378,10 +355,9 @@ Partial Class SachThieuNhi
         Me.Label26.BackColor = System.Drawing.Color.Red
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.White
-        Me.Label26.Location = New System.Drawing.Point(207, 1185)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label26.Location = New System.Drawing.Point(155, 963)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(46, 18)
+        Me.Label26.Size = New System.Drawing.Size(40, 15)
         Me.Label26.TabIndex = 17
         Me.Label26.Text = "-15%"
         '
@@ -391,10 +367,9 @@ Partial Class SachThieuNhi
         Me.Label27.BackColor = System.Drawing.Color.Red
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(1032, 1188)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label27.Location = New System.Drawing.Point(774, 965)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(46, 18)
+        Me.Label27.Size = New System.Drawing.Size(40, 15)
         Me.Label27.TabIndex = 17
         Me.Label27.Text = "-50%"
         '
@@ -404,20 +379,19 @@ Partial Class SachThieuNhi
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
                 Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Red
-        Me.Label5.Location = New System.Drawing.Point(613, 613)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Location = New System.Drawing.Point(460, 498)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(114, 24)
+        Me.Label5.Size = New System.Drawing.Size(92, 18)
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "22.000VND"
         '
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.Yellow
-        Me.TextBox1.Location = New System.Drawing.Point(-1, 358)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextBox1.Location = New System.Drawing.Point(-1, 291)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(1103, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(828, 20)
         Me.TextBox1.TabIndex = 55
         '
         'Label7
@@ -426,10 +400,9 @@ Partial Class SachThieuNhi
         Me.Label7.BackColor = System.Drawing.Color.Crimson
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 60.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label7.Location = New System.Drawing.Point(193, -2)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Location = New System.Drawing.Point(145, -2)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(734, 113)
+        Me.Label7.Size = New System.Drawing.Size(579, 91)
         Me.Label7.TabIndex = 56
         Me.Label7.Text = "Sách Thiếu Nhi"
         '
@@ -438,10 +411,9 @@ Partial Class SachThieuNhi
         Me.Button1.BackColor = System.Drawing.Color.Crimson
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(65, 639)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Location = New System.Drawing.Point(49, 519)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(131, 33)
+        Me.Button1.Size = New System.Drawing.Size(98, 27)
         Me.Button1.TabIndex = 57
         Me.Button1.Text = "Mua"
         Me.Button1.UseVisualStyleBackColor = False
@@ -451,10 +423,9 @@ Partial Class SachThieuNhi
         Me.Button2.BackColor = System.Drawing.Color.Crimson
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(344, 640)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Location = New System.Drawing.Point(258, 520)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(131, 33)
+        Me.Button2.Size = New System.Drawing.Size(98, 27)
         Me.Button2.TabIndex = 57
         Me.Button2.Text = "Mua"
         Me.Button2.UseVisualStyleBackColor = False
@@ -464,10 +435,9 @@ Partial Class SachThieuNhi
         Me.Button3.BackColor = System.Drawing.Color.Crimson
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(605, 639)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button3.Location = New System.Drawing.Point(454, 519)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(131, 33)
+        Me.Button3.Size = New System.Drawing.Size(98, 27)
         Me.Button3.TabIndex = 57
         Me.Button3.Text = "Mua"
         Me.Button3.UseVisualStyleBackColor = False
@@ -477,10 +447,9 @@ Partial Class SachThieuNhi
         Me.Button4.BackColor = System.Drawing.Color.Crimson
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(868, 639)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Location = New System.Drawing.Point(651, 519)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(131, 33)
+        Me.Button4.Size = New System.Drawing.Size(98, 27)
         Me.Button4.TabIndex = 57
         Me.Button4.Text = "Mua"
         Me.Button4.UseVisualStyleBackColor = False
@@ -490,10 +459,9 @@ Partial Class SachThieuNhi
         Me.Button5.BackColor = System.Drawing.Color.Crimson
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(65, 640)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button5.Location = New System.Drawing.Point(49, 520)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(131, 33)
+        Me.Button5.Size = New System.Drawing.Size(98, 27)
         Me.Button5.TabIndex = 57
         Me.Button5.Text = "Mua"
         Me.Button5.UseVisualStyleBackColor = False
@@ -503,10 +471,9 @@ Partial Class SachThieuNhi
         Me.Button6.BackColor = System.Drawing.Color.Crimson
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(48, 940)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button6.Location = New System.Drawing.Point(36, 764)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(131, 33)
+        Me.Button6.Size = New System.Drawing.Size(98, 27)
         Me.Button6.TabIndex = 57
         Me.Button6.Text = "Mua"
         Me.Button6.UseVisualStyleBackColor = False
@@ -516,10 +483,9 @@ Partial Class SachThieuNhi
         Me.Button7.BackColor = System.Drawing.Color.Crimson
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.White
-        Me.Button7.Location = New System.Drawing.Point(339, 940)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button7.Location = New System.Drawing.Point(254, 764)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(131, 33)
+        Me.Button7.Size = New System.Drawing.Size(98, 27)
         Me.Button7.TabIndex = 57
         Me.Button7.Text = "Mua"
         Me.Button7.UseVisualStyleBackColor = False
@@ -529,10 +495,9 @@ Partial Class SachThieuNhi
         Me.Button8.BackColor = System.Drawing.Color.Crimson
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
-        Me.Button8.Location = New System.Drawing.Point(613, 940)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button8.Location = New System.Drawing.Point(460, 764)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(131, 33)
+        Me.Button8.Size = New System.Drawing.Size(98, 27)
         Me.Button8.TabIndex = 57
         Me.Button8.Text = "Mua"
         Me.Button8.UseVisualStyleBackColor = False
@@ -542,10 +507,9 @@ Partial Class SachThieuNhi
         Me.Button9.BackColor = System.Drawing.Color.Crimson
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
-        Me.Button9.Location = New System.Drawing.Point(897, 943)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button9.Location = New System.Drawing.Point(673, 766)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(131, 33)
+        Me.Button9.Size = New System.Drawing.Size(98, 27)
         Me.Button9.TabIndex = 57
         Me.Button9.Text = "Mua"
         Me.Button9.UseVisualStyleBackColor = False
@@ -555,10 +519,9 @@ Partial Class SachThieuNhi
         Me.Button10.BackColor = System.Drawing.Color.Crimson
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.ForeColor = System.Drawing.Color.White
-        Me.Button10.Location = New System.Drawing.Point(48, 1248)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button10.Location = New System.Drawing.Point(36, 1014)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(131, 33)
+        Me.Button10.Size = New System.Drawing.Size(98, 27)
         Me.Button10.TabIndex = 57
         Me.Button10.Text = "Mua"
         Me.Button10.UseVisualStyleBackColor = False
@@ -568,10 +531,9 @@ Partial Class SachThieuNhi
         Me.Button11.BackColor = System.Drawing.Color.Crimson
         Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button11.ForeColor = System.Drawing.Color.White
-        Me.Button11.Location = New System.Drawing.Point(339, 1248)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button11.Location = New System.Drawing.Point(254, 1014)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(131, 34)
+        Me.Button11.Size = New System.Drawing.Size(98, 28)
         Me.Button11.TabIndex = 57
         Me.Button11.Text = "Mua"
         Me.Button11.UseVisualStyleBackColor = False
@@ -581,10 +543,9 @@ Partial Class SachThieuNhi
         Me.Button12.BackColor = System.Drawing.Color.Crimson
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button12.ForeColor = System.Drawing.Color.White
-        Me.Button12.Location = New System.Drawing.Point(609, 1248)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button12.Location = New System.Drawing.Point(457, 1014)
         Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(131, 34)
+        Me.Button12.Size = New System.Drawing.Size(98, 28)
         Me.Button12.TabIndex = 57
         Me.Button12.Text = "Mua"
         Me.Button12.UseVisualStyleBackColor = False
@@ -594,10 +555,9 @@ Partial Class SachThieuNhi
         Me.Button13.BackColor = System.Drawing.Color.Crimson
         Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button13.ForeColor = System.Drawing.Color.White
-        Me.Button13.Location = New System.Drawing.Point(880, 1249)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button13.Location = New System.Drawing.Point(660, 1015)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(131, 33)
+        Me.Button13.Size = New System.Drawing.Size(98, 27)
         Me.Button13.TabIndex = 57
         Me.Button13.Text = "Mua"
         Me.Button13.UseVisualStyleBackColor = False
@@ -607,10 +567,10 @@ Partial Class SachThieuNhi
         Me.Button14.BackColor = System.Drawing.Color.Ivory
         Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.ForeColor = System.Drawing.Color.Red
-        Me.Button14.Location = New System.Drawing.Point(1049, 389)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button14.Location = New System.Drawing.Point(787, 316)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(103, 42)
+        Me.Button14.Size = New System.Drawing.Size(77, 34)
         Me.Button14.TabIndex = 58
         Me.Button14.Text = "Trang2"
         Me.Button14.UseVisualStyleBackColor = False
@@ -618,10 +578,9 @@ Partial Class SachThieuNhi
         'PictureBox14
         '
         Me.PictureBox14.Image = Global.BaiThucHanh.My.Resources.Resources.download
-        Me.PictureBox14.Location = New System.Drawing.Point(-1, 113)
-        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox14.Location = New System.Drawing.Point(-1, 92)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(523, 255)
+        Me.PictureBox14.Size = New System.Drawing.Size(392, 207)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox14.TabIndex = 19
         Me.PictureBox14.TabStop = False
@@ -629,10 +588,9 @@ Partial Class SachThieuNhi
         'PictureBox13
         '
         Me.PictureBox13.Image = Global.BaiThucHanh.My.Resources.Resources.images
-        Me.PictureBox13.Location = New System.Drawing.Point(516, 113)
-        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox13.Location = New System.Drawing.Point(387, 92)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(587, 255)
+        Me.PictureBox13.Size = New System.Drawing.Size(440, 207)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox13.TabIndex = 18
         Me.PictureBox13.TabStop = False
@@ -640,10 +598,9 @@ Partial Class SachThieuNhi
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_13
-        Me.PictureBox12.Location = New System.Drawing.Point(864, 992)
-        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox12.Location = New System.Drawing.Point(648, 806)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox12.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 15
         Me.PictureBox12.TabStop = False
@@ -651,10 +608,9 @@ Partial Class SachThieuNhi
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_12
-        Me.PictureBox11.Location = New System.Drawing.Point(593, 992)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox11.Location = New System.Drawing.Point(445, 806)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox11.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 14
         Me.PictureBox11.TabStop = False
@@ -662,10 +618,9 @@ Partial Class SachThieuNhi
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_11
-        Me.PictureBox10.Location = New System.Drawing.Point(315, 992)
-        Me.PictureBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox10.Location = New System.Drawing.Point(236, 806)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox10.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 13
         Me.PictureBox10.TabStop = False
@@ -673,10 +628,9 @@ Partial Class SachThieuNhi
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_10
-        Me.PictureBox9.Location = New System.Drawing.Point(44, 992)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox9.Location = New System.Drawing.Point(33, 806)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox9.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 12
         Me.PictureBox9.TabStop = False
@@ -684,10 +638,9 @@ Partial Class SachThieuNhi
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_8
-        Me.PictureBox8.Location = New System.Drawing.Point(868, 679)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox8.Location = New System.Drawing.Point(651, 552)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox8.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 11
         Me.PictureBox8.TabStop = False
@@ -695,10 +648,9 @@ Partial Class SachThieuNhi
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_4
-        Me.PictureBox7.Location = New System.Drawing.Point(868, 389)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox7.Location = New System.Drawing.Point(651, 316)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox7.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 10
         Me.PictureBox7.TabStop = False
@@ -706,10 +658,9 @@ Partial Class SachThieuNhi
         'PictureBox5
         '
         Me.PictureBox5.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_7
-        Me.PictureBox5.Location = New System.Drawing.Point(597, 679)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox5.Location = New System.Drawing.Point(448, 552)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox5.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 9
         Me.PictureBox5.TabStop = False
@@ -717,10 +668,9 @@ Partial Class SachThieuNhi
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_3
-        Me.PictureBox4.Location = New System.Drawing.Point(597, 389)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox4.Location = New System.Drawing.Point(448, 316)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox4.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox4.TabIndex = 8
         Me.PictureBox4.TabStop = False
@@ -728,10 +678,9 @@ Partial Class SachThieuNhi
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_6
-        Me.PictureBox3.Location = New System.Drawing.Point(319, 679)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox3.Location = New System.Drawing.Point(239, 552)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox3.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 7
         Me.PictureBox3.TabStop = False
@@ -739,10 +688,9 @@ Partial Class SachThieuNhi
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.BaiThucHanh.My.Resources.Resources.Thiếu_nhi_2
-        Me.PictureBox2.Location = New System.Drawing.Point(319, 389)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox2.Location = New System.Drawing.Point(239, 316)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox2.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 6
         Me.PictureBox2.TabStop = False
@@ -750,10 +698,9 @@ Partial Class SachThieuNhi
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_5
-        Me.PictureBox6.Location = New System.Drawing.Point(48, 679)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox6.Location = New System.Drawing.Point(36, 552)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(160, 214)
+        Me.PictureBox6.Size = New System.Drawing.Size(120, 174)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 5
         Me.PictureBox6.TabStop = False
@@ -761,20 +708,19 @@ Partial Class SachThieuNhi
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.BaiThucHanh.My.Resources.Resources.thiếu_nhi_1
-        Me.PictureBox1.Location = New System.Drawing.Point(48, 389)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Location = New System.Drawing.Point(36, 316)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(160, 208)
+        Me.PictureBox1.Size = New System.Drawing.Size(120, 169)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'SachThieuNhi
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.ClientSize = New System.Drawing.Size(1167, 1055)
+        Me.ClientSize = New System.Drawing.Size(1174, 881)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -831,7 +777,6 @@ Partial Class SachThieuNhi
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "SachThieuNhi"
         Me.Text = "SachThieuNhi"
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
