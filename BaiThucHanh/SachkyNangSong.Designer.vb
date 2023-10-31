@@ -490,7 +490,7 @@ Partial Class SachkyNangSong
         '
         Me.TextBox1.BackColor = System.Drawing.Color.Yellow
         Me.TextBox1.Location = New System.Drawing.Point(-8, 230)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(1459, 20)
         Me.TextBox1.TabIndex = 54
@@ -501,7 +501,7 @@ Partial Class SachkyNangSong
         Me.Label27.BackColor = System.Drawing.Color.Crimson
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 60.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.White
-        Me.Label27.Location = New System.Drawing.Point(59, 6)
+        Me.Label27.Location = New System.Drawing.Point(154, 6)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(751, 91)
         Me.Label27.TabIndex = 56
@@ -669,7 +669,7 @@ Partial Class SachkyNangSong
         Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.ForeColor = System.Drawing.Color.Red
         Me.Button14.Location = New System.Drawing.Point(1362, 251)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(2)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(72, 34)
         Me.Button14.TabIndex = 59
@@ -826,7 +826,7 @@ Partial Class SachkyNangSong
         '
         Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
         Me.PictureBox17.Location = New System.Drawing.Point(722, 99)
-        Me.PictureBox17.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox17.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox17.Name = "PictureBox17"
         Me.PictureBox17.Size = New System.Drawing.Size(322, 130)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -837,7 +837,7 @@ Partial Class SachkyNangSong
         '
         Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
         Me.PictureBox16.Location = New System.Drawing.Point(194, 99)
-        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(219, 130)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -848,7 +848,7 @@ Partial Class SachkyNangSong
         '
         Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
         Me.PictureBox15.Location = New System.Drawing.Point(1036, 99)
-        Me.PictureBox15.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox15.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(413, 130)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -859,7 +859,7 @@ Partial Class SachkyNangSong
         '
         Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
         Me.PictureBox14.Location = New System.Drawing.Point(413, 99)
-        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(310, 130)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -870,7 +870,7 @@ Partial Class SachkyNangSong
         '
         Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
         Me.PictureBox13.Location = New System.Drawing.Point(-8, 99)
-        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(216, 130)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage

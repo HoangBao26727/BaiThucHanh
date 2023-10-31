@@ -24,12 +24,12 @@ Partial Class DangNhap
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtUserName = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -52,28 +52,28 @@ Partial Class DangNhap
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Password:"
         '
-        'TextBox1
+        'txtUserName
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(270, 118)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(282, 25)
-        Me.TextBox1.TabIndex = 2
+        Me.txtUserName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUserName.Location = New System.Drawing.Point(270, 118)
+        Me.txtUserName.Multiline = True
+        Me.txtUserName.Name = "txtUserName"
+        Me.txtUserName.Size = New System.Drawing.Size(282, 25)
+        Me.txtUserName.TabIndex = 2
         '
-        'TextBox2
+        'txtPassword
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(270, 180)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(282, 29)
-        Me.TextBox2.TabIndex = 3
+        Me.txtPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.Location = New System.Drawing.Point(270, 180)
+        Me.txtPassword.Multiline = True
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txtPassword.Size = New System.Drawing.Size(282, 29)
+        Me.txtPassword.TabIndex = 3
         '
         'Label3
         '
-        Me.Label3.BackColor = System.Drawing.Color.Snow
+        Me.Label3.BackColor = System.Drawing.Color.Gainsboro
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(0, 0)
@@ -82,19 +82,6 @@ Partial Class DangNhap
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Đăng Nhập"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Button2
-        '
-        Me.Button2.AutoSize = True
-        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button2.Font = New System.Drawing.Font("Leelawadee UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(118, 278)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(146, 37)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Tạo tài khoản"
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label4
         '
@@ -111,12 +98,24 @@ Partial Class DangNhap
         Me.Button1.BackColor = System.Drawing.Color.Blue
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(330, 233)
+        Me.Button1.Location = New System.Drawing.Point(196, 233)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(146, 30)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Blue
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.Transparent
+        Me.Button3.Location = New System.Drawing.Point(406, 233)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(146, 30)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "Cancel"
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'DangNhap
         '
@@ -124,11 +123,11 @@ Partial Class DangNhap
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(741, 450)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.txtUserName)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -142,10 +141,10 @@ Partial Class DangNhap
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtUserName As TextBox
+    Friend WithEvents txtPassword As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button3 As Button
 End Class

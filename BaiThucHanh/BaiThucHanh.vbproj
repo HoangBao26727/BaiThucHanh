@@ -91,11 +91,12 @@
     <Compile Include="dactamnhan.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DangNhap.Designer.vb">
+    <Compile Include="D:\gui chuan dau ra\DangNhap.Designer.vb">
       <DependentUpon>DangNhap.vb</DependentUpon>
+      <Link>DangNhap.Designer.vb</Link>
     </Compile>
-    <Compile Include="DangNhap.vb">
-      <SubType>Form</SubType>
+    <Compile Include="D:\gui chuan dau ra\DangNhap.vb">
+      <Link>DangNhap.vb</Link>
     </Compile>
     <Compile Include="danhthuc.Designer.vb">
       <DependentUpon>danhthuc.vb</DependentUpon>
@@ -352,8 +353,9 @@
     <EmbeddedResource Include="dactamnhan.resx">
       <DependentUpon>dactamnhan.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DangNhap.resx">
+    <EmbeddedResource Include="D:\gui chuan dau ra\DangNhap.resx">
       <DependentUpon>DangNhap.vb</DependentUpon>
+      <Link>DangNhap.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="danhthuc.resx">
       <DependentUpon>danhthuc.vb</DependentUpon>

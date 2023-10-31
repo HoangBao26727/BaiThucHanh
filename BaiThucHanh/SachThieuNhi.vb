@@ -1,10 +1,24 @@
 ﻿Public Class SachThieuNhi
+    Public Sub New()
+
+        ' This call is required by the designer.
+        InitializeComponent()
+
+        ' Add any initialization after the InitializeComponent() call.
+        Dim frm As New DangNhap
+        frm.ShowDialog()
+        _LoginResult = frm.DialogResult
+    End Sub
+
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
 
     End Sub
 
+    Private _LoginResult As DialogResult
     Private Sub SachThieuNhi_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        If _LoginResult <> Windows.Forms.DialogResult.OK Then
+            Me.Close()
+        End If
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
