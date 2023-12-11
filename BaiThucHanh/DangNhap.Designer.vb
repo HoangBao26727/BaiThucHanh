@@ -106,7 +106,7 @@ Partial Class DangNhap
         'pictureBox4
         '
         Me.pictureBox4.Image = Global.BaiThucHanh.My.Resources.Resources.ảnh_gif
-        Me.pictureBox4.Location = New System.Drawing.Point(226, 56)
+        Me.pictureBox4.Location = New System.Drawing.Point(237, 49)
         Me.pictureBox4.Name = "pictureBox4"
         Me.pictureBox4.Size = New System.Drawing.Size(292, 172)
         Me.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
