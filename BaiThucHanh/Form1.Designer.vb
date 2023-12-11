@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
@@ -31,7 +31,6 @@ Partial Class Form1
         Me.SáchKỹNăngSốngToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SáchTriếtLýToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GiớiThiệuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ThoátToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -43,11 +42,11 @@ Partial Class Form1
         '
         Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TrangToolStripMenuItem, Me.SảnPhẩmToolStripMenuItem, Me.GiớiThiệuToolStripMenuItem, Me.ThoátToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TrangToolStripMenuItem, Me.SảnPhẩmToolStripMenuItem, Me.GiớiThiệuToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1189, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1175, 28)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -94,12 +93,6 @@ Partial Class Form1
         Me.GiớiThiệuToolStripMenuItem.Size = New System.Drawing.Size(94, 24)
         Me.GiớiThiệuToolStripMenuItem.Text = "Giới Thiệu"
         '
-        'ThoátToolStripMenuItem
-        '
-        Me.ThoátToolStripMenuItem.Name = "ThoátToolStripMenuItem"
-        Me.ThoátToolStripMenuItem.Size = New System.Drawing.Size(64, 24)
-        Me.ThoátToolStripMenuItem.Text = "Thoát"
-        '
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
@@ -116,13 +109,12 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.BaiThucHanh.My.Resources.Resources.one
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 33)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Image = Global.BaiThucHanh.My.Resources.Resources.cuốn_sách1
+        Me.PictureBox1.Location = New System.Drawing.Point(-11, 31)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1189, 670)
+        Me.PictureBox1.Size = New System.Drawing.Size(1188, 581)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabIndex = 4
         Me.PictureBox1.TabStop = False
         '
         'Form1
@@ -130,12 +122,12 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1189, 697)
-        Me.Controls.Add(Me.Label1)
+        Me.ClientSize = New System.Drawing.Size(1175, 610)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "Quanlybansach.vb"
         Me.MenuStrip1.ResumeLayout(False)
@@ -148,14 +140,13 @@ Partial Class Form1
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents SảnPhẩmToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ThoátToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
     Friend WithEvents SáchThiếuNhiToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SáchNgoạiNgữToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SáchKỹNăngSốngToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents GiớiThiệuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SáchTriếtLýToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TrangToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

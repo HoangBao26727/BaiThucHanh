@@ -221,6 +221,12 @@
     <Compile Include="perfect.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="QuenMatKhau.Designer.vb">
+      <DependentUpon>QuenMatKhau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuenMatKhau.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="renkynangsong.Designer.vb">
       <DependentUpon>renkynangsong.vb</DependentUpon>
     </Compile>
@@ -282,6 +288,12 @@
       <DependentUpon>ThôngTin.vb</DependentUpon>
     </Compile>
     <Compile Include="ThôngTin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangChu.Designer.vb">
+      <DependentUpon>TrangChu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="tudien.Designer.vb">
@@ -415,6 +427,9 @@
     <EmbeddedResource Include="perfect.resx">
       <DependentUpon>perfect.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuenMatKhau.resx">
+      <DependentUpon>QuenMatKhau.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="renkynangsong.resx">
       <DependentUpon>renkynangsong.vb</DependentUpon>
     </EmbeddedResource>
@@ -447,6 +462,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThôngTin.resx">
       <DependentUpon>ThôngTin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrangChu.resx">
+      <DependentUpon>TrangChu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tudien.resx">
       <DependentUpon>tudien.vb</DependentUpon>
@@ -784,6 +802,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh người.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biểu tượng ảnh người.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ảnh gif buồn trong đêm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anh-gif-1-min.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuốn sách.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuốn sách1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif2.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

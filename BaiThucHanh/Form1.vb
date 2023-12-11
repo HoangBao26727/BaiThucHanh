@@ -17,8 +17,8 @@
         frm.Show()
     End Sub
 
-    Private Sub ThoátToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ThoátToolStripMenuItem.Click
-        Me.Close()
+    Private Sub ThoátToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
     End Sub
 
     Private Sub SáchNgoạiNgữToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SáchNgoạiNgữToolStripMenuItem.Click
@@ -31,7 +31,7 @@
         frm.Show()
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -51,5 +51,10 @@
 
     Private Sub Form1_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub TrangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TrangToolStripMenuItem.Click
+        Dim frm As New TrangChu()
+        frm.Show()
     End Sub
 End Class

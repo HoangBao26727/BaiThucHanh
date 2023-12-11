@@ -22,130 +22,151 @@ Partial Class DangNhap
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.linkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.linkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.pictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.pictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.pictureBox2 = New System.Windows.Forms.PictureBox()
+        CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(138, 118)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(126, 25)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "User Name:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(151, 180)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(113, 25)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Password:"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(270, 118)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(282, 25)
-        Me.TextBox1.TabIndex = 2
         '
         'TextBox2
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(270, 180)
-        Me.TextBox2.Multiline = True
+        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(313, 314)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(282, 29)
-        Me.TextBox2.TabIndex = 3
+        Me.TextBox2.Size = New System.Drawing.Size(205, 26)
+        Me.TextBox2.TabIndex = 15
+        Me.TextBox2.UseSystemPasswordChar = True
         '
-        'Label3
+        'TextBox1
         '
-        Me.Label3.BackColor = System.Drawing.Color.Snow
-        Me.Label3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(0, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(741, 90)
-        Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Đăng Nhập"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(313, 262)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(205, 26)
+        Me.TextBox1.TabIndex = 14
         '
-        'Button2
+        'Button3
         '
-        Me.Button2.AutoSize = True
-        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button2.Font = New System.Drawing.Font("Leelawadee UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(118, 278)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(146, 37)
-        Me.Button2.TabIndex = 5
-        Me.Button2.Text = "Tạo tài khoản"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.Button3.AutoSize = True
+        Me.Button3.BackColor = System.Drawing.Color.Blue
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.AliceBlue
+        Me.Button3.Location = New System.Drawing.Point(286, 414)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(199, 46)
+        Me.Button3.TabIndex = 20
+        Me.Button3.Text = "Đăng Nhập"
+        Me.Button3.UseVisualStyleBackColor = False
         '
-        'Label4
+        'linkLabel2
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(339, 288)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(127, 17)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "Quên mật khẩu?"
+        Me.linkLabel2.AutoSize = True
+        Me.linkLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.linkLabel2.Location = New System.Drawing.Point(450, 365)
+        Me.linkLabel2.Name = "linkLabel2"
+        Me.linkLabel2.Size = New System.Drawing.Size(79, 22)
+        Me.linkLabel2.TabIndex = 18
+        Me.linkLabel2.TabStop = True
+        Me.linkLabel2.Text = "Đăng Ký"
+        '
+        'linkLabel1
+        '
+        Me.linkLabel1.AutoSize = True
+        Me.linkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.linkLabel1.Location = New System.Drawing.Point(222, 365)
+        Me.linkLabel1.Name = "linkLabel1"
+        Me.linkLabel1.Size = New System.Drawing.Size(135, 22)
+        Me.linkLabel1.TabIndex = 19
+        Me.linkLabel1.TabStop = True
+        Me.linkLabel1.Text = "Quên Mật Khẩu"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Blue
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(330, 233)
+        Me.Button1.Location = New System.Drawing.Point(593, 32)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(146, 30)
+        Me.Button1.Size = New System.Drawing.Size(195, 37)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'pictureBox4
+        '
+        Me.pictureBox4.Image = Global.BaiThucHanh.My.Resources.Resources.ảnh_gif
+        Me.pictureBox4.Location = New System.Drawing.Point(226, 56)
+        Me.pictureBox4.Name = "pictureBox4"
+        Me.pictureBox4.Size = New System.Drawing.Size(292, 172)
+        Me.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pictureBox4.TabIndex = 21
+        Me.pictureBox4.TabStop = False
+        '
+        'pictureBox3
+        '
+        Me.pictureBox3.Image = Global.BaiThucHanh.My.Resources.Resources._17
+        Me.pictureBox3.Location = New System.Drawing.Point(226, 310)
+        Me.pictureBox3.Name = "pictureBox3"
+        Me.pictureBox3.Size = New System.Drawing.Size(30, 30)
+        Me.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pictureBox3.TabIndex = 17
+        Me.pictureBox3.TabStop = False
+        '
+        'pictureBox2
+        '
+        Me.pictureBox2.Image = Global.BaiThucHanh.My.Resources.Resources.biểu_tượng_ảnh_người
+        Me.pictureBox2.Location = New System.Drawing.Point(226, 262)
+        Me.pictureBox2.Name = "pictureBox2"
+        Me.pictureBox2.Size = New System.Drawing.Size(30, 30)
+        Me.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pictureBox2.TabIndex = 16
+        Me.pictureBox2.TabStop = False
+        '
         'DangNhap
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(741, 450)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label3)
+        Me.BackColor = System.Drawing.SystemColors.Window
+        Me.ClientSize = New System.Drawing.Size(811, 512)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.linkLabel2)
+        Me.Controls.Add(Me.linkLabel1)
+        Me.Controls.Add(Me.pictureBox4)
+        Me.Controls.Add(Me.pictureBox3)
         Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.pictureBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button1)
         Me.ForeColor = System.Drawing.SystemColors.InfoText
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "DangNhap"
         Me.Text = "DangNhap"
+        CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Button2 As Button
+    Private WithEvents pictureBox3 As PictureBox
+    Private WithEvents TextBox2 As TextBox
+    Private WithEvents pictureBox2 As PictureBox
+    Private WithEvents TextBox1 As TextBox
+    Private WithEvents Button3 As Button
+    Private WithEvents linkLabel2 As LinkLabel
+    Private WithEvents linkLabel1 As LinkLabel
+    Private WithEvents pictureBox4 As PictureBox
     Friend WithEvents Button1 As Button
 End Class
